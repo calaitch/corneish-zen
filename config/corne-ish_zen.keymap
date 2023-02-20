@@ -32,12 +32,12 @@
 // -----------------------------------------------------------------------------------------
 // |  ESC |     |     |     |     |     |   | BT1 | BT2 | BT3 | BT4 | BT5 | BKSP |
 // |      |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BTCLR|
-// | SHFT | DWN | LFT |  UP | RGT |     |   |     |     |     |     |     |  TAB |
+// | SHFT | DWN | LFT |  UP | RGT |  .  |   |     |     |     |     |     |  TAB |
 //                    | GUI |     | ENT |   | SPC |     | ALT |
                         bindings = <
    &kp ESC    &trans       &trans       &trans       &trans        &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2   &bt BT_SEL 3 &bt BT_SEL 4 &kp BSPC
    &trans     &kp N1       &kp N2       &kp N3       &kp N4        &kp N5     &kp N6       &kp N7       &kp N8         &kp N9       &kp N0       &bt BT_CLR
-   &kp LSHFT  &kp DOWN     &kp LEFT     &kp UP       &kp RIGHT     &trans     &trans       &trans       &trans         &trans       &trans       &kp TAB
+   &kp LSHFT  &kp DOWN     &kp LEFT     &kp UP       &kp RIGHT     &kp DOT    &trans       &trans       &trans         &trans       &trans       &kp TAB
                           	        &kp LGUI     &trans        &kp RET    &kp SPACE    &trans       &kp RALT
                         >;
                 };
